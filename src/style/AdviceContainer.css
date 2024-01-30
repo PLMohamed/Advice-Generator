@@ -1,0 +1,46 @@
+#adviceContainer {
+    padding: 40px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: wrap;
+    border-radius: 12px;
+    background: var(--dark_grayish_blue);
+    gap: 24px;
+    max-width: 444px;
+    width: 444px;
+    min-width: 280px;
+    position: relative;
+}
+
+#adviceContainer > span {
+    font-size: 0.8rem;
+    color: var(--neon_green);
+    letter-spacing: 4px;
+}
+
+#adviceContainer > picture {
+    margin-bottom: 24px;
+}
+
+#adviceContainer > #btn {
+    position: absolute;
+    background-color: var(--neon_green);
+    padding: 12px 20px;
+    border-radius: 50%;
+    bottom: -30px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+#adviceContainer > #btn:hover {
+    box-shadow: 0px 0px 20px 2px var(--neon_green);
+}
+
+@media (max-width: 768px) {
+    #quoteContainer {
+        box-sizing: border-box;
+        width: 295px;
+    }
+}
