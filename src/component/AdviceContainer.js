@@ -23,13 +23,13 @@ function AdviceContainer() {
             <Advice advice={advice} />
             <picture>
                 <source
-                    srcSet="/pattern-divider-mobile.svg"
+                    srcSet="pattern-divider-mobile.svg"
                     media="(max-width: 800px)"
                 />
-                <img src="/pattern-divider-desktop.svg" alt="Pattern divider" />
+                <img src="pattern-divider-desktop.svg" alt="Pattern divider" />
             </picture>
             <div id="btn" onClick={newAdvice}>
-                <img src="/icon-dice.svg" alt="Dice icon" />
+                <img src="icon-dice.svg" alt="Dice icon" />
             </div>
         </div>
     );
